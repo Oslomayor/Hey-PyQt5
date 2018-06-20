@@ -25,3 +25,12 @@ PyQt 是一个用于创建 GUI 应用程序的跨平台的工具包，它将最�
 > pip install PyQt5-tools -i https://pypi.douban.com/simple  
 #### 4. add system PATH
 pip 命令执行完成后，PyQt5 工具安装在 X:\XXX\Python3_6_4\Lib\site-packages\pyqt5-tools 下，添加到系统环境变量中  
+
+#### 5. install QScintilla
+> pip install QScintilla -i https://pypi.douban.com/simple  
+
+在安装 Eric6 前先安装 QScintilla, 否则会报错 ‘cannot import 那么‘Qsci’’  
+
+#### 6. install Eric6
+Eric6 是 Python 写的编辑器, 与开发 PyQt5 程序据说是绝配  
+访问 Eric [官网](https://sourceforge.net/projects/eric-ide/files/eric6/stable/), 下载安装包和汉化包， 解压后用汉化包中的文件覆盖原安装包的相应文件, 然后运行安装包中的 install.py 开始安装. 安装完成后, 进入相应目录找到 eric6.pyw 文件, 双击打开 Eric6  
