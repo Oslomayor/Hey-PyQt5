@@ -29,7 +29,7 @@ pip 命令执行完成后，PyQt5 工具安装在 X:\XXX\Python3_6_4\Lib\site-pa
 #### 5. install QScintilla
 > pip install QScintilla -i https://pypi.douban.com/simple  
 
-在安装 Eric6 前先安装 QScintilla, 否则会报错 ‘cannot import name ‘Qsci’’  
+在安装 Eric6 前先安装 QScintilla, 否则会报错 ‘cannot import name ‘Qsci’ ’  
 
 #### 6. install Eric6
 Eric6 是 Python 写的编辑器, 与开发 PyQt5 程序据说是绝配  
